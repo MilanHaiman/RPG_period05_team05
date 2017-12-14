@@ -25,4 +25,8 @@ public class Protagonist extends Character {
 		defense = baseDefense;
 		attack = baseAttack;
 	}
+
+	public String toString() {
+		return "Protagonist with:" + System.lineSeparator() + "\t" + health + " health points";
+	}
 }

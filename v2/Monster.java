@@ -5,4 +5,7 @@ public class Monster extends Character {
 		defense = 15;
 		attack = 0.7;
 	}
+	public String toString() {
+		return "Monster with:" + System.lineSeparator() + "\t" + health + " health points";
+	}
 }
